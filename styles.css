@@ -1,0 +1,577 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*****************TAG SELECTOR*****************/
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #606060;
+}
+
+.extra-div h2,
+.service-div h2 {
+    line-height: 1.1;
+    font-size: 0.9rem;
+    word-spacing: 4px;
+    font-weight: bold;
+    margin: 20px 0 15px 0;
+}
+
+/*****************HEADER PART START*****************/
+/*****************CLASS SELECTOR*****************/
+
+.header {
+    background-image: linear-gradient(rgba(4, 27, 38, 0.3), rgba(4, 27, 38, 0.3)), url(images/pexels-fauxels-3184457.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: 100% 100%;
+    clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0% 75%, 0% 0%);
+}
+
+.ml-navbar {
+    margin-left: auto;
+}
+
+.header::before {
+    content: "";
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f9 100%);
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.navbar::before {
+    content: "";
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f9 100%);
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.header-content {
+    width: 100%;
+    height: inherit;
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+
+.header-content-div {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.nav-item a {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.head a {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.h1-header-content {
+    font-weight: bolder;
+}
+
+.p-header-content {
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 10px 0 15px 0;
+}
+
+.header-buttons button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    padding: 12px 35px;
+    margin: 0px 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.header-buttons a:hover,
+.header-buttons button:hover {
+    background-color: #fff;
+    color: #50d1c0;
+}
+
+.header-content a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*****************HEADER PART END*****************/
+/*****************HEADER EXTRA DIV STARTS*****************/
+/*****************CLASS SELECTOR*****************/
+
+.header-extra-div {
+    width: 100%;
+    height: auto;
+    margin: 70px 0;
+    text-align: center;
+}
+
+.extra-div {
+    background: #fff;
+    border: medium none;
+    padding: 50px !important;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.extra-div-image {
+    width: 20%;
+}
+
+.extra-div:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+/*****************HEADER EXTRA DIV END*****************/
+/*****************OFFER SECTION START*****************/
+/*****************CLASS SELECTOR*****************/
+
+.h1-offer-section {
+    font-weight: bold;
+}
+
+.p-offer-section {
+    margin-bottom: 50px;
+}
+
+.img-offer-section {
+    width: 50%;
+}
+
+.offer-section {
+    background: #f7f7f9;
+    padding: 50px 0;
+    margin-bottom: 30px;
+}
+
+.names h1 {
+    color: #2e2e2e;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.service-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress {
+    height: 0.6rem !important;
+    margin-bottom: 25px !important;
+}
+
+.service-div {
+    margin-top: 10px !important;
+}
+
+/*****************OFFER SECTION END*****************/
+/******************PROJECT DONE START*****************/
+/*****************CLASS SELECTOR*****************/
+
+.section-work-p {
+    font-weight: bold;
+    margin: 60px 0 50px 0;
+}
+
+.section-work-container {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+
+.section-work-container h1 {
+    color: black;
+}
+
+.section-work-div {
+    padding: 2px;
+}
+
+.section-work {
+    margin-bottom: 80px;
+}
+
+/*****************PROJECT DONE END*****************/
+/* ***************PRICING-PORTION-START***************  */
+/*****************CLASS SELECTOR*****************/
+
+.pricing-section {
+    width: 100%;
+    height: 100vh;
+    padding: 80px 10%;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.pricing-section::before {
+    content: "";
+    background: linear-gradient(160deg, #16c9f6 55%, #fff 0%);
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: -1;
+}
+
+.pricing-section-container-div {
+    text-align: center;
+}
+
+.pricing-section-h1 {
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.card-body span,
+.card-footer button {
+    color: #606060;
+}
+
+.money {
+    color: #606060;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.card:hover .money,
+.card:hover .card-header {
+    color: #50d1c0;
+}
+
+.card-header {
+    font-size: 1.6rem;
+    font-weight: bold;
+    background: #fff !important;
+    padding: 25px 0px !important;
+}
+
+.card-body {
+    padding: 30px 0px !important;
+}
+
+.card-body li {
+    color: #606060;
+    margin: 10px 0px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+
+}
+
+.card-footer {
+    padding: 30px 0px !important;
+    background: #fff !important;
+}
+
+.card-footer button {
+    background-color: transparent;
+    border: 1px solid #50d1c0;
+    border-radius: 100px;
+    padding: 12px 35px;
+    margin: 0px 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.card-footer button:hover,
+.card:hover button {
+    background-color: #50d1c0;
+    color: #fff;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
+
+/* ***************PRICING-PORTION-END***************  */
+/* **************HAPPY-CLIENT-PORTION-START***************  */
+/*****************CLASS SELECTOR*****************/
+
+.happy-client {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding: 80px 0px;
+}
+
+.happy-client-carousel-image {
+    width: 100%;
+}
+
+.my-color h1,
+.happy-client-container-h1 {
+    color: #2e2e2e;
+}
+
+.my-color h2 {
+    color: #606060;
+}
+
+.box {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.box:hover {
+    background: #16c9f6;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -60px !important;
+}
+
+.carousel-indicators button {
+    background-color: #16c9f6 !important;
+}
+
+.box a img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px 0px;
+}
+
+.box h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.box h2 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+/* **************HAPPY-CLIENT-PORTION END***************  */
+/* ***************CONTACT-US-PORTION-START*************** */
+/*****************CLASS SELECTOR*****************/
+
+.contact-us {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding: 40px 0px;
+    position: relative;
+}
+
+.contact-us-h1 {
+    font-weight: bold;
+    color: #2e2e2e;
+    margin-top: 50px;
+}
+
+.contact-us::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background: linear-gradient(330deg, #16c9f6 55%, #fff 0%);
+    z-index: -1;
+}
+
+.contact-us-button {
+    background-color: transparent;
+    border: 1px solid #50d1c0;
+    border-radius: 100px;
+    padding: 12px 35px;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    color: #50d1c0;
+    outline: none;
+}
+
+form:hover .contact-us-button {
+    background-color: #fff;
+    color: #50d1c0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+::placeholder {
+    font-size: 0.85rem;
+}
+
+/* ***************CUSTOMER-FEEDBACK-PORTION-END*************** */
+/* ***************NEWSLETTER-PORTION-START*************** */
+/*****************CLASS SELECTOR*****************/
+
+.newspaper-h1 {
+    font-weight: bold;
+    color: #2e2e2e;
+    margin-top: 100px;
+}
+
+.newsletter {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.newsletter-input-div {
+    margin-top: 40px;
+}
+
+.newsletter-input {
+    border-radius: 100px 0px 0px 100px !important;
+    min-width: 150px;
+    min-width: 45px;
+}
+
+.input-group-text {
+    color: #fff !important;
+    background: #5bc0de !important;
+    border-radius: 0px 100px 100px 0px !important;
+    min-width: 150px;
+    min-width: 45px;
+}
+
+/* ***************NEWSLETTER-PORTION-END*************** */
+/* ***************FOOTER-PORTION-START*************** */
+/*****************CLASS SELECTOR*****************/
+
+.footer {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    padding-top: 50px;
+    background-color: #00abff;
+}
+
+.center {
+    text-align: center;
+}
+
+.footer-div h3 {
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2rem !important;
+    margin-bottom: 25px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+
+.footer-anchor-tag {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.footer p {
+    color: #fff;
+}
+
+.copy-right {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* ***************FOOTER-PORTION-END*************** */
+
+/* ***************MEDIA-QUERY-PORTION-START*************** */
+
+@media(max-width:768px) {
+    .nav-link {
+        text-align: center !important;
+    }
+
+    .pricing-section,
+    .happy-client {
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: -30px;
+    }
+
+    .section-work {
+        height: auto;
+    }
+
+    .contact-us {
+        height: auto;
+        padding: 0px 10px 50px 10px;
+    }
+
+    .second-card-pricing-section {
+        margin: 30px 0px !important;
+    }
+
+    .section-work {
+        margin-bottom: -1px;
+    }
+
+    .footer-div:nth-child(2) {
+        text-align: left !important;
+    }
+
+    .footer-div {
+        margin: 30px 0px;
+    }
+}
